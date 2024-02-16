@@ -8,7 +8,7 @@ class UserRouter {
   }
 
   setupRoutes() {
-    this.router.post("/register", UserController.login);
+    this.router.post("/register", UserController.register);
     this.router.post("/login", UserController.login);
   }
 
